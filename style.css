@@ -69,6 +69,9 @@ h2 {
   border-color: var(--error-color);
 }
 
+small {
+  font-size: smaller;
+}
 .form-control small {
   color: var(--error-color);
   position: absolute;
@@ -92,4 +95,9 @@ h2 {
   padding: 10px;
   margin-top: 20px;
   width: 100%;
+}
+
+.form button:focus {
+  outline: 0;
+  background: #3453db;
 }
